@@ -151,14 +151,20 @@ const Form = () => {
       setStep(1);
       setTimeout(() => {
         localStorage.removeItem("formData");
-      }, 1500);
+      }, 100);
       // Clear form data after submission
       setTimeout(() => {
         setShowPopup(false);
       }, 1500);
       // Hide the popup after 1.5 seconds
+  
+      // Refresh the page after 1.5 seconds
+      setTimeout(() => {
+        window.location.reload();
+      }, 100);
     }
   };
+  
 
   return (
     <div className="form-container">
