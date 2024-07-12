@@ -2,33 +2,6 @@
 
 This project is a multi-step form built with React. It includes three steps to collect user information and demonstrates the use of state management, validation, and data persistence using localStorage.
 
-## Folder Structure
-
-multi-step-form/
-├── node_modules/
-├── public/
-│ ├── index.html
-│ └── ...
-├── src/
-│ ├── components/
-│ │ ├── Form.js
-│ │ ├── Step1.js
-│ │ ├── Step2.js
-│ │ ├── Step3.js
-│ │ └── Navigation.js
-│ ├── hooks/
-│ │ └── useForm.js
-│ ├── styles/
-│ │ └── style.css
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
-
-
 ## Setup Instructions
 
 1. **Initialize the project**:
