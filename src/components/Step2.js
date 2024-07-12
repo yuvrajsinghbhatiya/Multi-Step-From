@@ -1,5 +1,6 @@
 import React from 'react';
 
+// create a step component including the form fields (address1, address2, city, state, zip)
 const Step2 = ({ formData, errors, handleChange }) => (
   <div>
     <h2>Address Information</h2>
@@ -8,10 +9,13 @@ const Step2 = ({ formData, errors, handleChange }) => (
       <input
         type="text"
         name="address1"
+        // set the value of the address1 field to the value in the formData state
         value={formData.address1}
+        // call the handleChange function when the value of the address1 field changes
         onChange={handleChange}
         placeholder="Enter Address Line 1"
       />
+      {/* display an error message if the address1 field is empty */}
       {errors.address1 && <p className="error">{errors.address1}</p>}
     </div>
     <div className='forms'>
@@ -60,4 +64,5 @@ const Step2 = ({ formData, errors, handleChange }) => (
   </div>
 );
 
+// export the Step2 component
 export default Step2;
