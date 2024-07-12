@@ -1,6 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to left, #4286f4, #373b44);
+  background-image: url("./img/bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -10,7 +13,7 @@ body {
   max-width: 400px;
   margin: 60px auto;
   padding: 0.4rem 1rem;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-color: #f1f2f3;
   border-radius: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
@@ -27,7 +30,6 @@ h2 {
 
 .forms {
   padding: 0.4rem;
-  background-color: #cfd9df59;
   border-radius: 10px;
   margin-bottom: 0.8rem;
 }
@@ -35,7 +37,7 @@ h2 {
 .review {
   padding: 0.6rem;
   align-items: center;
-  background-color: #cfd9df59;
+  background-color: #fdfbfb;
   border-radius: 15px;
   margin-bottom: 0.8rem;
 }
@@ -64,7 +66,7 @@ select {
   color: #393939;
   width: 100%;
   padding: 8px;
-  background-color: #dfe8ee;
+  background-color: #fdfbfb;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-sizing: border-box;
@@ -77,6 +79,7 @@ select:focus {
   box-shadow: 0 0 4px rgba(177, 177, 178, 0.5);
 }
 
+
 .navigation-container {
   display: flex;
   justify-content: space-evenly;
@@ -86,25 +89,22 @@ select:focus {
 .navigation-button {
   width: 120px;
   padding: 8px 16px;
-  background: linear-gradient(to left, #4286f4, #373b44);
+  background-color: #8d8e91;
   color: white;
   border: none;
   font-size: 0.9rem;
   border-radius: 10px;
   cursor: pointer;
-  transition: background 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .navigation-button:hover {
-  box-shadow: 0 0 8px rgba(66, 134, 244, 0.6);
-  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(177, 177, 177, 0.6);
 }
 
 .error {
   font-family: "Poppins", sans-serif;
-  color: rgba(255, 0, 0, 0.837);
-  font-size: 11px;
+  color: rgba(255, 0, 0, 0.864);
+  font-size: 12px;
   margin-left: 5px;
 }
 
@@ -112,8 +112,8 @@ select:focus {
   position: fixed;
   top: 15px;
   right: 15px;
-  background: #e2ebf0;
-  border: 1px solid #b0bec5;
+  background-color: #f1f2f3;
+  border: 1px solid #dfe0e0;
   border-radius: 15px;
   padding: 8px 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
